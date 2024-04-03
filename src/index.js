@@ -7,7 +7,7 @@ const createWindow = () => {
     width: 300,
     height: 600,
     icon: path.join(__dirname, "icon.png"),
-    resizable: false,
+    // resizable: false,
   });
   mainWindow.setMenuBarVisibility(false);
   mainWindow.setTitle("Calculator");
